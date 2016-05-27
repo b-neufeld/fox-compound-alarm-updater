@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectAccess>
+<ExportOptions Directory="D:\ExportFiles" DumpOptions="Source"/>
+<QueryFilter Filter="Filter1" Condition="AssignedTo" Value="GALAXY01"/>
+<Export Filter="Filter1" Type="CSV" Cascade="Yes"/>
+</DirectAccess> 
