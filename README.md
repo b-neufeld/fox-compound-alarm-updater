@@ -1,5 +1,3 @@
-# WORK IN PROGRESS
-
 # fox-compound-alarm-updater - What is it? 
 Compound Alarm Updater helps a programmer make bulk changes to Compound Alarm Groups on Foxboro I/A. 
 
