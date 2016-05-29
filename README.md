@@ -13,6 +13,11 @@ No more! With Compound Alarm Updater, you can open up Compounds.csv in Excel and
 - FCS 5.0.0.0 (minimum). Has been tested all the way to FCS 6.1. I have not tested it on 4.x and below (but it may work). 
 - A working knowledge of DirectAccess (see document B0750BM)
 
+# IMPORTANT - read before continuing 
+On March 30, 2016, Schneider-Electric/Foxboro released a customer advisory informing users that changing multiple alarm groups on certain FCP270/ZCP270 processors "may result in alarms either ending up at the wrong destination (operator Screen, Printer or Historian) or not showing up anywhere"
+
+Get more info from Schneider, including affected firmware versions of Control Processors here: https://support.ips.invensys.com/km/index?page=content&id=ADV213
+
 # Instructions
 1. Make a .cab file backup of your Galaxy server. It is advisable to do this before executing ANY DirectAccess script that modifies your Galaxy database. 
 2. Open DirectAccess on your Galaxy and run the script generate_csv_export.xml. This will (as the name implies) generate a .csv export of everything in your Galaxy, to the folder D:\ExportFiles
@@ -28,7 +33,7 @@ No more! With Compound Alarm Updater, you can open up Compounds.csv in Excel and
 12. In Compounds.csv: Your file should now be cleanly sorted and ready to modify. Delete any rows (Compounds) that you do not want to modify. Take advantage of Excel's conditional formatting and find-and-replace functions to set up all of your Compound Alarm Groups as your DCS requires. 
 13. When complete, save the active worksheet as *Compounds.csv*. This must be the filename; it is what the script looks for to build the DirectAccess .xml file. 
 14. Put Compunds.csv in the same folder as Compounds.py. Shift-right-click in that folder with Windows Explorer and select "Open Command Prompt Here". 
-15. Type the path to python.exe, followed by Compounds.py to run the script. For example: "C:\Python27.python.exe Compounds.py"
+15. Type the path to python.exe, followed by Compounds.py to run the script. For example: "C:\Python27\python.exe Compounds.py"
 16. The script will output an .xml file named CAU_2016-05-27_04-59-10_output.xml (current date & time will be substituted). Copy this file over to your Galaxy server. 
 17. Open DirectAccess and run the CAU_2016-05-27_04-59-10_output.xml file. This will modify your Galaxy database. When DirectAccess is finished, any Compounds that you had included in your Compounds.csv file will have had their alarm groups updated. 
 18. The final step is to review and deploy the changes to your Compounds. The DirectAccess script modifies your Galaxy, but it WILL NOT AUTOMATICALLY DEPLOY COMPOUNDS TO CONTROLLERS WHEN IT EXECUTES. 
@@ -43,6 +48,6 @@ See example input and output files:
 - If you want to validate the script before making changes in bulk, manually copy & edit the .xml file to modify just one compound. 
 - If you have Excel installed on your 6.0.1+ Galaxy, I think this functionality is built-in with the Grid Editor feature. 
 - This might seem like a lot of effort, but if you add or modify workstations a few times a year, this can save a ton of time (depending on how many compounds you have).
-- 
+
 # Feedback
 I'd love to hear feedback on if this script saves you time. If you need help, submit an "issue" on Github. I can't guarantee a quick response. The Foxboro freelist is also a great reference.
