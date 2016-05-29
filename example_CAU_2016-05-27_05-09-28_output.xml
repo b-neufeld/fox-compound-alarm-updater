@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?> 
+<DirectAccess>
+
+	<!--
+		Generated using Compound Alarm Updater  
+			by Brahm Neufeld at Agrium VPO	  
+			   brahm.neufeld@agrium.com
+		
+			   Version 0.3 - 2016-05-27		
+	--> 
+
+	<QueryFilter Value="MY_PLANT01" Condition="NamedLike" Filter="Filter2" />
+		<BlockQueryFilter Value="MY_PLANT01" Condition="DerivedOrInstantiatedFrom" Filter="Filter2" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="LTRBG1" ParmName="GR1DV1" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR1DV2" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR1DV3" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR1DV4" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR1DV5" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR1DV6" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR1DV7" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="hist01" ParmName="GR1DV8" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="LTRBG1" ParmName="GR2DV1" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR2DV2" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR2DV3" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR2DV4" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR2DV5" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR2DV6" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR2DV7" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="hist01" ParmName="GR2DV8" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="LTRBG1" ParmName="GR3DV1" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR3DV2" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR3DV3" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR3DV4" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR3DV5" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR3DV6" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="" ParmName="GR3DV7" />
+			<UpdateCompoundAttribute Filter="Filter2" ParmValue="hist01" ParmName="GR3DV8" />
+
+	<QueryFilter Value="BOILER_2" Condition="NamedLike" Filter="Filter3" />
+		<BlockQueryFilter Value="BOILER_2" Condition="DerivedOrInstantiatedFrom" Filter="Filter3" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="LTRBG1" ParmName="GR1DV1" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="CTLWP3" ParmName="GR1DV2" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR1DV3" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR1DV4" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR1DV5" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR1DV6" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR1DV7" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="hist01" ParmName="GR1DV8" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="LTRBG1" ParmName="GR2DV1" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="CTLWP3" ParmName="GR2DV2" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR2DV3" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR2DV4" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR2DV5" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR2DV6" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR2DV7" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="hist01" ParmName="GR2DV8" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="LTRBG1" ParmName="GR3DV1" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="CTLWP3" ParmName="GR3DV2" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR3DV3" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR3DV4" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR3DV5" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR3DV6" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="" ParmName="GR3DV7" />
+			<UpdateCompoundAttribute Filter="Filter3" ParmValue="hist01" ParmName="GR3DV8" />
+
+	<QueryFilter Value="AREA_123" Condition="NamedLike" Filter="Filter4" />
+		<BlockQueryFilter Value="AREA_123" Condition="DerivedOrInstantiatedFrom" Filter="Filter4" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="LTRBG1" ParmName="GR1DV1" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR1DV2" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR1DV3" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR1DV4" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR1DV5" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR1DV6" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR1DV7" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="hist01" ParmName="GR1DV8" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="LTRBG1" ParmName="GR2DV1" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR2DV2" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR2DV3" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR2DV4" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR2DV5" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR2DV6" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR2DV7" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="hist01" ParmName="GR2DV8" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="LTRBG1" ParmName="GR3DV1" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR3DV2" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR3DV3" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR3DV4" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR3DV5" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR3DV6" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="" ParmName="GR3DV7" />
+			<UpdateCompoundAttribute Filter="Filter4" ParmValue="hist01" ParmName="GR3DV8" />
+
+	<QueryFilter Value="CRUSHING" Condition="NamedLike" Filter="Filter5" />
+		<BlockQueryFilter Value="CRUSHING" Condition="DerivedOrInstantiatedFrom" Filter="Filter5" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="P00AW1" ParmName="GR1DV1" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="P00AW2" ParmName="GR1DV2" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="P00AW3" ParmName="GR1DV3" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="" ParmName="GR1DV4" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="" ParmName="GR1DV5" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="" ParmName="GR1DV6" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="" ParmName="GR1DV7" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="hist01" ParmName="GR1DV8" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="LTRBG1" ParmName="GR2DV1" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="P00AW1" ParmName="GR2DV2" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="P00AW2" ParmName="GR2DV3" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="P00AW3" ParmName="GR2DV4" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="" ParmName="GR2DV5" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="" ParmName="GR2DV6" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="" ParmName="GR2DV7" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="hist01" ParmName="GR2DV8" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="LTRBG1" ParmName="GR3DV1" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="P00AW1" ParmName="GR3DV2" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="P00AW2" ParmName="GR3DV3" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="P00AW3" ParmName="GR3DV4" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="" ParmName="GR3DV5" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="" ParmName="GR3DV6" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="" ParmName="GR3DV7" />
+			<UpdateCompoundAttribute Filter="Filter5" ParmValue="hist01" ParmName="GR3DV8" />
+
+	<QueryFilter Value="SERVICES" Condition="NamedLike" Filter="Filter6" />
+		<BlockQueryFilter Value="SERVICES" Condition="DerivedOrInstantiatedFrom" Filter="Filter6" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="P00AW1" ParmName="GR1DV1" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="P00AW2" ParmName="GR1DV2" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="P00AW3" ParmName="GR1DV3" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="" ParmName="GR1DV4" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="" ParmName="GR1DV5" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="" ParmName="GR1DV6" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="" ParmName="GR1DV7" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="hist01" ParmName="GR1DV8" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="LTRBG1" ParmName="GR2DV1" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="P00AW1" ParmName="GR2DV2" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="P00AW2" ParmName="GR2DV3" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="P00AW3" ParmName="GR2DV4" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="" ParmName="GR2DV5" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="" ParmName="GR2DV6" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="" ParmName="GR2DV7" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="hist01" ParmName="GR2DV8" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="LTRBG1" ParmName="GR3DV1" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="P00AW1" ParmName="GR3DV2" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="P00AW2" ParmName="GR3DV3" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="P00AW3" ParmName="GR3DV4" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="" ParmName="GR3DV5" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="" ParmName="GR3DV6" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="" ParmName="GR3DV7" />
+			<UpdateCompoundAttribute Filter="Filter6" ParmValue="hist01" ParmName="GR3DV8" />
+
+</DirectAccess>
