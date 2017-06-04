@@ -20,7 +20,7 @@ Get more info from Schneider, including affected firmware versions of Control Pr
 
 # Instructions
 1. Make a .cab file backup of your Galaxy server. It is advisable to do this before executing ANY DirectAccess script that modifies your Galaxy database. 
-2. Open DirectAccess on your Galaxy and run the script generate_csv_export.xml. This will (as the name implies) generate a .csv export of everything in your Galaxy, to the folder D:\ExportFiles
+2. Open DirectAccess on your Galaxy and run the script generate_csv_export.xml. This will - as the name implies - generate a .csv export of everything in your Galaxy, to the folder D:\ExportFiles
 3. When complete, navigate to D:\ExportFiles and copy the file Compounds.csv to a computer where you have installed Python 2.7
 4. Open Compunds.csv in Excel. Before starting to make changes, clean up the .csv file to show only the columns we care about (steps follow). 
 5. In Compounds.csv: Zoom out and select all used cells and rows with your mouse - do NOT "Select all". 
